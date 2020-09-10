@@ -1,0 +1,38 @@
+Creación de un modelo de datos
+
+Preparar los datos para que estén conectados y puedas usarlos de manera conjunta. Para ello,
+Power Bi permite establecer relaciones entre las tablas.
+
+Tipos de modelos:
+
+1. Modelo en estrella: Hay una tabla central (tabla de hechos) rodeada de otras tablas (tablas de dimensiones).
+
+2. Modelo en copo de nieve: deriva del modelo en estrella donde las tablas de dimensiones 
+                             se separan en multiples tablas.
+
+Métricas con DAX
+
+DAX es le lenguaje de programación que se utiliza en Power Bi para crear métricas o columnas calculadas. Con DAX
+se puede:
+      - Agregar columnas y medidas calculadas al modelo, utilizando una sintaxis intuitiva.
+      - Generar métricas avanzadas con variables y complejos cálculos.
+      
+Dos tipos de cálculos con MAX:
+      - Columnas calculadas: se utilizan cuando queremos obtener un valor para cada fila.
+                             Esta opción añade un valor estático a una tabla.
+                             
+      - Métricas: se utiliza cuando queremos un valor agregado. Se recalculan en base a los filtros
+      
+A continuación os recomiendo que utilicéis el enlace siguiente para acceder a un resumen interactivo 
+de las diferentes funciones en DAX: https://community.powerbi.com/t5/Data-Stories-Gallery/DAX-Cheat-Sheet-Success-of-CSS-Selector/td-p/559474
+
+Visualizaciones de informes
+
+Para la parte de la visualización con gráficas lo haremos desde la vista de inicio. Para ello teneís las siguientes
+partes de la herramienta que os permitirán desde añadir gráficas e introducir diferentes datos hasta modificar las
+gráficas.
+  
+  a. Páginas del informe: muestran las diferentes hojas de las que se compone el dashboard.
+  b. Opciones de visualización: Es el panel principal donde seleccionamos el tipo de gráfica que queresmos crear.
+  c. Panel de filtros: permite configurar los filtros.
+  d. Campo/Formato/Analytics: Contiene las diferentes tablas, columnas, métricas y columnas calculadas.
