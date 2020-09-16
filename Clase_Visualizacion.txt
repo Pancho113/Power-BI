@@ -1,0 +1,16 @@
+En los informes uno puede crear un dashboard.
+
+para la vista mas sencilla  se puede filtrar a la derecha cualquier objeto del dashboard.
+Tambien existe la opción de visualización en el que podemos generar la gráfica que queramos.
+Puedes obtener mas visualizaciones si tienes cuenta de microsoft.
+
+El panel de datos es donde estaran todos los datos y metricas que queramos ocupar para la visualización de datos.
+
+Conjuntos de buenas practicas al generar un dashboard:
+Siempre ocupar un template para la vizualización.
+Siempre metricas y graficas tener el mismo formato para cualquiera.
+Separar las metricas con los gráficos para que se vea ordenado.
+
+Filtros permiten hacer una selección de la información 
+
+Las iteraciones es editar el comportamiento que tiene el gráfico con le dashboard
