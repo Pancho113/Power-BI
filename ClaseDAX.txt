@@ -1,0 +1,25 @@
+Clase de DAX
+
+Es para cálcular metricas o columnas calculadas.
+
+Hay dos tipos de metricas:
+- las columnas calculadas y las metricas.
+
+una columna calculada apareceria en la tabla de datos, muy por el contrario las metricas.
+
+DAX es Nombre_demetrica = Funcion(Tabla_a_ocupar[Columna_a_ocupar]
+
+
+Countrows = cuenta todas las filas de una tabla.
+ 
+ Como generar la metrica coste de asia.
+ sumx(Filter(Geography, Gegraphy[ContinentName]=="Asia"), Sales[coste])
+ 
+ Genera la columna calculada “Rentabilidad” que devuelva si es rentable:
+ IF()
+ Concatenar palabras:
+ Concate()
+ Calcular las cantidades de veces que hubo un descuentod e Asia
+ 
+ DescuentoAsia = CALCULATE(SUM(Sales[DiscountQuantity]),FILTER(Geography,Geography[ContinentName]== "Asia"))
+ 
